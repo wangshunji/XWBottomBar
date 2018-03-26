@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wang.shunji.baselibrary" >
+
+    <application android:name=".BaseApplication"/>
+</manifest>

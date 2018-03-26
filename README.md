@@ -1,7 +1,7 @@
-# EncapsulationBottomBar
+# XWBottomBar
 ### 使用步骤：
 
-Step 1.Add it in your root build.gradle at the end of repositories:
+第一步： 在project的build.gradle中加入
 ```
 allprojects {
 	repositories {
@@ -11,14 +11,14 @@ allprojects {
 }
 ```
 
-Step 2. Add the dependency:
+第二步： 在moudle的build.gradle中加入
 ```
 dependencies {
-	compile 'com.github.PikachuStore:EncapsulationBottomBar:2.0.0'
+	  compile 'com.github.wangshunji:XWBottomBar:v1.0.0'
 }
 ```
 
-Step 3.xml:
+第三步： xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -35,7 +35,7 @@ Step 3.xml:
 </RelativeLayout>
 ```
 
-Step 4.在Activity中添加如下代码：
+第四步： 在Activity中添加如下代码：
 ```
 
     // 设置数据即可
@@ -76,5 +76,5 @@ bottomBar.overwriteListener(index,listener);
 > 效果
 
 ![这里写图片描述](https://raw.githubusercontent.com/PikachuStore/EncapsulationBottomBar/master/Screenshot_2018-01-07-11-55-51.png)
-# XWBottomBar
-# XWBottomBar
+
+
