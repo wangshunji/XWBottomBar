@@ -1,6 +1,9 @@
 # XWBottomBar
 ### 使用步骤：
 
+ 本框架目前是从EncapsulationBottomBar克隆过来做了一点点小改动，可以加载阿里的ARouter的页面，需要的朋友可以直接去：https://github.com/PikachuStore/EncapsulationBottomBar  用原作者的
+ 谢谢
+
 第一步： 在project的build.gradle中加入
 ```
 allprojects {
@@ -14,7 +17,7 @@ allprojects {
 第二步： 在moudle的build.gradle中加入
 ```
 dependencies {
-	  compile 'com.github.wangshunji:XWBottomBar:v1.0.0'
+	   implementation 'com.github.wangshunji:XWBottombar:v1.0.0'
 }
 ```
 
