@@ -1,4 +1,4 @@
-package wang.shunji.baselibrary;
+package com.example.macpro.myapplication;
 
 import android.app.Application;
 

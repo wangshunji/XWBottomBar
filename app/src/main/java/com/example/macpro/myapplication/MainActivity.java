@@ -37,16 +37,11 @@ public class MainActivity extends AppCompatActivity {
         bottomBar.setTabDatas(initDatas());
 
         bottomBar.setLineColor(Color.RED);
-
-
         bottomBar.overwriteListener(2, new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Toast.makeText(MainActivity.this, "重写点击事件", Toast.LENGTH_SHORT).show();
-
                 startActivity(new Intent(MainActivity.this, Main2Activity.class));
-
             }
         });
 
