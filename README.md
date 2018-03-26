@@ -77,3 +77,4 @@ bottomBar.overwriteListener(index,listener);
 
 ![这里写图片描述](https://raw.githubusercontent.com/PikachuStore/EncapsulationBottomBar/master/Screenshot_2018-01-07-11-55-51.png)
 # XWBottomBar
+# XWBottomBar
